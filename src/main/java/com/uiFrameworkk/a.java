@@ -8,5 +8,6 @@ public class a extends TestBase {
 	@Test
 	public void voidtestLogin() {
 		Assert.assertTrue(true);
+		
 	}
 }
