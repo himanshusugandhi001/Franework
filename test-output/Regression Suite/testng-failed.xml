@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.uiFrameworkk.pentland.helper.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="B(failed)">
+    <classes>
+      <class name="com.uiFrameworkk.B">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testLoginB"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFrameworkk.B -->
+    </classes>
+  </test> <!-- B(failed) -->
+  <test thread-count="5" name="C(failed)">
+    <classes>
+      <class name="com.uiFrameworkk.C">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="testLoginC"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFrameworkk.C -->
+    </classes>
+  </test> <!-- C(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

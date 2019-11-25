@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.uiFrameworkk.pentland.testScripts.logintest.LoginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="testLoginToApplication"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.uiFrameworkk.pentland.testScripts.logintest.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [All Test] -->
